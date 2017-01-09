@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  margin: 0 10%;
+  padding: 0 10%;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em 0;
+  width: auto;
+}
+
+fieldset {
+  margin: auto 0;
+  padding: auto 0;
+  width: auto;
+}

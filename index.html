@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Random Quote Machine</title>
-    <meta content="">
-    <style></style>
-  </head>
-  <body>
-    <pre>
-      <div id="quote"></div>
-    </pre>
-    
+<head>
+    <title>Random Fortunes Generator</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+
+  <div class="container">
+    <h1>Random Fortunes Generator</h1>
+    <fieldset id="categories">
+      <legend>Categories:</legend>
+      <input type="checkbox" id="art" class="category" checked="true"/>
+      <label for="art">Art</label>
+      <input type="checkbox" id="computers" class="category" checked="true"/>
+      <label for="computers">Computers</label>
+      <input type="checkbox" id="cookie" class="category" checked="true"/>
+      <label for="cookie">Cookie</label>
+      <input type="checkbox" id="definitions" class="category" checked="true"/>
+      <label for="definitions">Definitions</label>
+      <input type="checkbox" id="disclaimer" class="category" checked="true"/>
+      <label for="disclaimer">Disclaimer</label>
+      <input type="checkbox" id="education" class="category" checked="true"/>
+      <label for="education">Education</label>
+      <input type="checkbox" id="food" class="category" checked="true"/>
+      <label for="food">Food</label>
+      <input type="checkbox" id="fortune" class="category" checked="true"/>
+      <label for="fortune">Fortune</label>
+      <input type="checkbox" id="law" class="category" checked="true"/>
+      <label for="law">Law</label>
+      <input type="checkbox" id="linux" class="category" checked="true"/>
+      <label for="linux">Linux</label>
+      <input type="checkbox" id="love" class="category" checked="true"/>
+      <label for="love">Love</label>
+      <input type="checkbox" id="magic" class="category" checked="true"/>
+      <label for="magic">Magic</label>
+      <input type="checkbox" id="pets" class="category" checked="true"/>
+      <label for="pets">Pets</label>
+      <input type="checkbox" id="science" class="category" checked="true"/>
+      <label for="science">Science</label>
+    </fieldset>
+  <pre>
+    <div id="quote"></div>
+  </pre>
+  <button type="button" id="next-fortune">Next</button>
+</div>
 
     <script src="fortunes.js"></script>
     <script src="script.js"></script>
 
-  </body>
+</body>
 </html>
